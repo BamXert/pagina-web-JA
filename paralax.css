@@ -64,6 +64,21 @@ header {
 .fondo_p h1 {
 	font-size: 60px;
 	color: white;
+}
+.fondoC {
+	width: 100%;
+	height: 100vh;
+	background: url(FondoC.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.fondoC h1 {
+	font-size: 250px;
+	color: #D1DBEE;
 
 }
 .seccion_f {
@@ -149,4 +164,131 @@ header {
 }
 .marca{
 	background-color: rgba(40,55,71,0.7);
+}
+
+.input
+{
+	width: 95%;
+	height: 100%;
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.micarrito
+{
+	display: block;
+	padding: 10px 20px;
+	border: 1px black; #454556;
+	width: 10%;
+	height: 20%;
+   position: relative;
+   text-decoration: none;
+   justify-content: space-around;
+   position: relative;
+   font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: black;
+    background-color: whitesmoke;
+    overflow: hidden;
+
+
+
+
+}
+
+.iconos
+{
+	width: 6%;
+	height: 10%;
+	justify-content: left;
+	align-items:left;
+	display: flex;
+	justify-content: left;
+	position: static;
+	
+	
+	
+
+}
+
+.conteiner_slider {
+	display: block;
+	padding: 10px;
+}
+
+.slider{
+
+	width: 90%;
+	margin: auto;
+	overflow: auto;
+	height: 80%;
+}
+.slider ul{
+	display: flex;
+    padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite;
+	animation-timing-function: ease-in;
+}
+.slider li{
+width: 100%;
+	list-style: none;
+	
+
+}
+.slider img{
+width: 100%;
+
+
+}
+@keyframes cambio{
+
+	0% {margin-left: 0; }
+	20%{margin-left: 0; }
+
+	25%{margin-left: -100%; }
+	45%{margin-left: -100%; }
+
+
+50%{margin-left: -200%; }
+	70%{margin-left: -200%; }
+
+	75%{margin-left: -200%; }
+	100%{margin-left: -200%; }
+
+}
+
+.slider_btn:hover {
+background: #fff;
+}
+.slider_btn_left{
+left: 10px;
+}
+.slider_btn_rigth{
+right: 10px;
+}
+
+.slider_btn {
+position: absolute; 
+width: 40px;
+ height: 40px; 
+background: rgba(255, 255, 255, 0.7); 
+top: 5 ; transform: translateX(-50%); 
+font-size: 30px; 
+font-weight: bold; 
+font-family: monospace; 
+text-align: center; 
+border-radius: 5s; 
+cursor: pointer;
+}
+
+.tituloss {
+	font-size: 80px;
+    text-align: right;
+    padding: 20px 0px;
+font-weight: bold;
+font: monospace;
+
 }
